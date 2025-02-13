@@ -1,6 +1,7 @@
 import React from 'react'
-import Ticket from './assets/Components/Ticket'
-import Signin from './assets/Components/Signin'
+import Ready from './assets/Components/Ready'
+import  AttendeeDetails  from './assets/Components/AttendeeDetails'
+import TicketSelection from './assets/Components/TicketSelection'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 const App = () => {
@@ -8,8 +9,9 @@ const App = () => {
     <Router>
       <div>        
           <Routes>
-            <Route path='/' element={<Signin />}/>
-            <Route path='/ticket' element={<Ticket />}/>
+            <Route path='/' element={<TicketSelection />}/>
+            <Route path='/ready' element={<Ready />}/>
+            <Route path='/attendeedetails' element={<AttendeeDetails />}/>
           </Routes>        
       </div>
     </Router>

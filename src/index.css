@@ -1,4 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 @import "tailwindcss";
 body{
- background-color: #0A192F;
+ background-color: #041E23;
 }
+.mask-inverted {
+    -webkit-mask-image: radial-gradient(circle, transparent 20%, black 21%);
+    mask-image: radial-gradient(circle, transparent 20%, black 21%);
+  }
+  
+  
