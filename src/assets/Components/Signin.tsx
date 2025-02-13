@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 
 const Signin = () => {
     
@@ -35,7 +36,7 @@ const Signin = () => {
           <label htmlFor="url" className=''>URL <span className='text-red-500'>*</span></label> 
           <input onChange = {(e) => setUrl(e.target.value)} value={url} required type="url" id='url' className='mb-3 w-[20rem]  block  px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500' />
 
-          <a href="/assets/Components/Tickets.tsx">
+          <a href="">
           <button type='submit' className='bg-indigo-500 w-[20rem] py-2 mt-3 hover:cursor-pointer rounded-md hover:bg-indigo-400'>Generate Ticket</button>
           </a>
         </form>
