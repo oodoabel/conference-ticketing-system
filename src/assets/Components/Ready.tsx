@@ -19,7 +19,7 @@ const Ready = () => {
                     <p>📍04 Rumens road, Ikoyi, Lagos</p>
                     <p>March 15th, 2025 | 7:00pm</p>
 
-                    <img src="" alt="" className="w-[10rem] h-[10rem] m-4 border-[#24A0B5] border-4 rounded-2xl" />
+                    <img src="../react.svg" alt="" className="w-[10rem] h-[10rem] m-4 border-[#24A0B5] border-4 rounded-2xl" />
 
                     <div className="bg-[#07373F] w-full h-full border-1 border-[#12464E] text-gray-400 rounded-2xl mb-4 p-2">
                       <div className=" grid grid-cols-2 text-[10px]">
